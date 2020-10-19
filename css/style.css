@@ -1,1 +1,12 @@
 @import "./layout.css";
+@import "./main-content.css";
+@import "./header.css";
+
+
+.footer {
+    grid-area: footer;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

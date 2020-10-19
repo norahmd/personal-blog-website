@@ -1,0 +1,12 @@
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img {
+    max-width: 20px;
+}
