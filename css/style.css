@@ -1,9 +1,11 @@
 @import "./layout.css";
 @import "./main-content.css";
 @import "./header.css";
+@import "./blog-post-content.css";
 
 
-.footer {
+
+footer {
     grid-area: footer;
     background-color: lightgrey;
     display: flex;

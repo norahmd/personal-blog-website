@@ -1,0 +1,36 @@
+.blog-post-content {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: minmax(400px, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "article article article info"
+    "article article article info";
+    grid-gap: 30px;
+}
+
+
+article {
+    grid-area: article;
+}
+
+
+.blog-info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.blog-share {
+    border: 1px black solid;
+    width: 100%;
+}
+
+
+.blog-author {
+    background-color: gainsboro;
+    padding: 10px;
+}
