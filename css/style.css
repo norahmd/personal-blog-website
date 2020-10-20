@@ -12,3 +12,38 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
+a {
+    font-family: Times, 'Times New Roman';
+    color: blueviolet;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-family: Cambria, Cochin;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+h2 {
+    font-family: Georgia;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+
+h3 {
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+p {
+    color: #404040;
+    font-weight: lighter;
+    font-size: large;
+}
